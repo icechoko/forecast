@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css.css">
+    <title>誕生日からわかる今年の運勢</title>
+</head>
+
+<body>
+    <!--header-->
+    <div class="header">
+        <header>
+            <p data-bs-thema="dark">誕生日からわかる今年の運勢</p>
+        </header>
+    </div>
+
+    <div class="body_">
+        <!--top-->
+        <div class="top">
+            <h1>🔮占いたい人の名前と誕生日を入れてください🔮</h1>
+        </div>
+
+        <!-- main -->
+        <div class="main">
+            <!-- form -->
+            <form class="center" action="" method="post"></form>
+            <table>
+                <tr>
+                    <div class="form">
+                        <th><label for="name">名前</label></th>
+                        <td><input type="text" id="name"></td>
+                    </div>
+                </tr>
+                <tr>
+                    <div class="form">
+                        <th><label for="birthLabel">誕生日</label></th>
+                        <td><input type="date" id="birth"></td>
+                    </div>
+                </tr>
+            </table>
+
+            <!--botton-->
+            <div class="button">
+                <a href="#" id="assessment">占う</a>
+            </div>
+
+            <!--result-->
+            <div class="col-lg-9">
+                <div id="result-area">
+                </div>
+            </div>
+
+        </div>
+
+
+
+    </div>
+
+    <script src="forecast.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,75 @@
+/* header */
+header { 
+    background-color: hsl(195, 100%, 99%);
+    padding: 0;
+    width: auto;
+}
+
+.header p {
+    color: #333333;
+    text-align: left;
+    font-size: 18px;
+    padding: 1px 12px 15px;
+}
+
+
+/* h1 */
+.top h1 {
+    color: #333333;
+    margin: 0;
+    text-align: center;
+    font-size: 25px;
+}
+
+
+/* main */
+.main {
+    text-align: left;
+    padding: 10px 50px 20px;
+}
+
+/* form */
+label {
+    display: inline-block;
+    width: 50px;
+    vertical-align: top;
+    text-align: left;
+    padding: 10px 50px 20px;
+}
+
+.center {
+    width: fit-content;
+    margin: auto;
+}
+
+.center th {
+    text-align: left;
+    vertical-align:top;
+}
+
+
+/* button */
+.button a {
+    background: #326dd2;
+    border-radius: 3px;
+    position: relative;
+    text-align: left;
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    margin: 0 auto;
+    max-width: 50px;
+    padding: 10px 25px;
+    font-family: "Noto Sans Japanese";
+    color: white;
+    line-height: 1.8;
+    text-decoration: none;
+    transition: 0.3s ease-in-out;
+    font-weight: 500;
+    width: fit-content;
+}
+
+.button a:hover {
+    background: white;
+    color: #326dd2;
+}
