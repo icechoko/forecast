@@ -14,10 +14,13 @@ assessmentButton.addEventListener(
 
         if (userName.length === 0 && birth.length === 0) {
             window.alert('名前と誕生日を入力してください');
+            return;
         } else if (userName.length === 0) {
             window.alert('名前を入力してください');
+            return;
         } else if (birth.length === 0) {
             window.alert('誕生日を入力してください');
+            return;
         }
 
 
